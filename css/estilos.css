@@ -166,6 +166,12 @@ a {
     grid-area: encontranos;
 
 }
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+  }
+  
 
 /*Marcas*/
 .sliderMarcas {
@@ -215,7 +221,7 @@ a {
     }
 
     50% {
-        transform: scale(1.1);
+        transform: scale(1.2);
     }
 
     75% {
@@ -223,7 +229,7 @@ a {
     }
 
     100% {
-        transform: scale(1.2);
+        transform: scale(1);
     }
 
 }
